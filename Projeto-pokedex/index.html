@@ -21,103 +21,15 @@
     <section class="content">
         <h1>Pokedex</h1>
         <ol id="pokemonList" class="pokemons">
-            <!-- Pokemons here  -->
-            <li class="pokemon" id="grass">
-                <span class="number">#001</span>
-                <span class="name">Bulbasaur</span>
-                <div class="detail">
-                    <ol class="types">
-                        <li class="type">Grass</li>
-                        <li class="type">Poison</li>
-                    </ol>
-                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg" alt="Bulbasaur">
-                </div>
-            </li>
-            <li class="pokemon" id="grass">
-                <span class="number">#002</span>
-                <span class="name"> Ivysaur</span>
-                <div class="detail">
-                    <ol class="types">
-                        <li class="type">Grass</li>
-                        <li class="type">Poison</li>
-                    </ol>
-                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/2.svg" alt="Ivysaur">
-                </div>
-            </li>
-            <li class="pokemon" id="grass">
-                <span class="number">#003</span>
-                <span class="name"> Venusaur</span>
-                <div class="detail">
-                    <ol class="types">
-                        <li class="type">Grass</li>
-                        <li class="type">Poison</li>
-                    </ol>
-                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/3.svg" alt="Venusaur">
-                </div>
-            </li>
-            <li class="pokemon" id="fire">
-                <span class="number">#004</span>
-                <span class="name"> Charmander</span>
-                <div class="detail">
-                    <ol class="types">
-                        <li class="type">Fire</li>
-                    </ol>
-                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/4.svg" alt="Charmander">
-                </div>
-            </li>
-            <li class="pokemon" id="fire">
-                <span class="number">#005</span>
-                <span class="name"> Charmeleon</span>
-                <div class="detail">
-                    <ol class="types">
-                        <li class="type">Fire</li>
-                    </ol>
-                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/5.svg" alt="Charmeleon">
-                </div>
-            </li>
-            <li class="pokemon" id="fire">
-                <span class="number">#006</span>
-                <span class="name">Charizard</span>
-                <div class="detail">
-                    <ol class="types">
-                        <li class="type">Fire</li>
-                        <li class="type">Flying</li>
-                    </ol>
-                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/6.svg" alt="Charizard">
-                </div>
-            </li>
-            <li class="pokemon" id="water">
-                <span class="number">#007</span>
-                <span class="name">Squirtle</span>
-                <div class="detail">
-                    <ol class="types">
-                        <li class="type">Water</li>
-                    </ol>
-                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/7.svg" alt="Squirtle">
-                </div>
-            </li>
-            <li class="pokemon" id="water">
-                <span class="number">#008</span>
-                <span class="name">Wartotle</span>
-                <div class="detail">
-                    <ol class="types">
-                        <li class="type">Water</li>
-                    </ol>
-                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/8.svg" alt="Wartotle">
-                </div>
-            </li>
-            <li class="pokemon" id="water">
-                <span class="number">#009</span>
-                <span class="name">Blastoise</span>
-                <div class="detail">
-                    <ol class="types">
-                        <li class="type">Water</li>
-                    </ol>
-                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/9.svg" alt="Blastoise">
-                </div>
-            </li>
         </ol>
+        
+        <div class="pagination">
+            <button id="loadMoreButton" type="button"> Load More 
+            </button>
+        </div>
     </section>
+    <script src="./assets/js/pokemon-model.js"></script>
+    <script src="./assets/js/poke-api.js"></script>
     <script src="./assets/js/main.js"></script>
 </body>
 </html>
