@@ -96,7 +96,7 @@
     padding: 0;
 }
 
-.pokemon .detail{
+.pokemon .detail {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -154,7 +154,7 @@
 }
 
 @media screen and (min-width: 380px) {
-    .pokemons {
+    .pokemons{
         max-width: 380px;
         grid-template-columns: 1fr 1fr;
     }
@@ -168,8 +168,12 @@
 }
 
 @media screen and (min-width: 992px) {
-    .pokemons {
+    .pokemons{
         max-width: 992px;
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
+}
+
+.poke_data {
+    text-decoration: none;
 }

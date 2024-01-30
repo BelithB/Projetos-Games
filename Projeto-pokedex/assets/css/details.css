@@ -1,0 +1,51 @@
+@media screen and (min-width: 992px) {
+    .pokeDetail{
+        max-width: 992px;
+        max-height: 900px;
+        width: auto;
+        height: auto;
+        margin: 01rem auto;
+        border-radius: 1rem;
+    }
+}
+
+.pokeDetail {
+    height: 100vh;
+    padding: 1rem;
+    background-color: #FFF;
+    display: flow-root;
+}
+
+.back{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+}
+
+.back button {
+   color: #fff;
+   padding: .25rem .5rem;
+   margin: .25rem 0;
+   font-size: .625rem; 
+   background-color: #6c79db;
+   border: none;
+   border-radius: 1rem;
+}
+
+.pokeDetails{
+    background-color: #26c9ab;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    padding: 1rem;
+}
+
+.pokemonDetail {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 800;
+}
